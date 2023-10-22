@@ -3,64 +3,229 @@
 <head>
 	<link rel="icon" type="image/x-icon" href = "https://e7.pngegg.com/pngimages/822/692/png-clipart-soviet-union-hammer-and-sickle-red-star-red-triangle-logo.png">	
 	<title>
-		Введите пароль
+		Главная страница
 	</title>
+	<style>
+		
+		.header {
+		background-color:Orange;
+		padding: 25px;
+		text-align: center;
+		font-size: 18pt;
+		width=100%;
+		height=25%;	
+		}
 
-	<script>
-		function checkLogin(){
-			var login = document.getElementById("loginBox").value;
-			var loginEnter = login.value;
-			if(login=="Ernest300") {
-			return true;
-			}
-			alert("Доступ запрещён! Неверный логин или пароль. Попробуйте ещё раз.");
-			return false;
-				
-		}
-		function checkPassword(){
-			var password = document.getElementById("passwordBox").value;
-			var passwordEnter = password.value;
-			if(password=="A123Z321") {
-			return true;
-			}
-			alert("Доступ запрещён! Неверный логин или пароль. Попробуйте ещё раз.");
-			return false;
+		.podzagolovok {
+		background-color:LimeGreen;
+		padding: 25px;
+		text-align: center;
+		font-size: 18pt;
+		width=100%;
+		height=25%;	
 		}
 		
+		.title {
+		font-size: 14pt;
+		color:red;	
+		}
 		
-	</script>
+		.chto {
+		font-size: 14pt;
+		padding: 25px;
+		text-align: center;
+		}
+		
+		.body{
+		font-size: 14pt;
+		}
+		
+   		.btn {
+   			display: inline-block; /* Строчно-блочный элемент */
+   			background: Green; /* Серый цвет фона */
+  			color: #fff; /* Белый цвет текста */
+   			padding: 1rem 1.5rem; /* Поля вокруг текста */
+			text-decoration: none; /* Убираем подчёркивание */
+  			border-radius: 3px; /* Скругляем уголки */
+		
+
+
+
+
+.form-search {  /* форма с boxtuffs.com */
+  position: relative;
+  display: inline-block;
+  border: 1px solid #747474;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px #575555, 0 1px 0 #FFF;
+  background-image: linear-gradient(#BCBCBC, #EBEBEB);
+}
+.form-search:before {  /* рамка вокруг формы */
+  position: absolute;
+  content: "";
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+  border-radius: 5px;
+  background: linear-gradient(#D3D3D3, #CACACA 50%, #A9A9A9 50%, #9B9B9B);
+}
+.form-search:focus-within {  /* изменение формы при фокусе */
+  box-shadow: inset 0 1px 1px #46575b, 0 1px 0 #FFF;
+  background: linear-gradient(#9CC2CA, #DFECEF);
+}
+.form-search input[type="search"] {  /* поле поиска */
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 0 0 6px;
+  background: transparent;
+  font: 13px Helvetica, Arial, sans-serif;
+  color: #6E7074;
+  text-shadow: 0 1px 0 #FFF;
+  transition: all .2s ease-out;
+}
+.form-search:focus-within input[type="search"],  /* изменение поля поиска при фокусе */
+.form-search input[type="search"]:focus {
+  width: 160px;
+  color: #25464D;
+}
+.form-search input[type="image"] {  /* картинка лупы */
+  padding: 0;
+  vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+	
+	</style>
 </head>
 
 <body style="background-color:Lime; padding: 30px;">
-	<p style="font-size: 30pt;"> ЗДЕСЬ ВЫ МОЖЕТЕ СКАЧАТЬ 3D МОДЕЛИ ТАНКОВ И ПРОЧЕЙ ТЕХНИКИ ВРЕМЁН ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЫ </p>
-	<p>  Для входа на сайт введите, пожалуйста логин и пароль. </p>
-	
-	<p> <input id="loginBox" type="text" placeholder="Логин"/><br/> </p>
 
-	<p> <input id="passwordBox" type="password" placeholder="Пароль"/><br/></p>
-	
+<p> 
+<div class="chto">
 
-	 <a href="главная стр.html">
-	<input id="loginBox" type="button"value="OK" onclick="return checkLogin() && checkPassword();"/>
-	</a>
+<a href="check_password.html" ><img src="https://www.pngplay.com/wp-content/uploads/6/Exit-Transparent-Background.png" height=40	
+		width=60 ></a>
+
+<form class="form-search" action="/search/" target="_blank">
+  <input type="hidden" name="searchid" value="808327">
+  <input type="search" name="text" required placeholder="Поиск по сайту">
+  <input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>  <!-- вместо кнопки submit -->
+</form>
+		</div>
+<p> <div class="body">
+
+	<div class="header">
+		ДОБРО ПОЖАЛОВАТЬ! <br/>
+		</div>
+	<div class="body">
+
+		<br/>
+<br/>
+<div class="podzagolovok">
+		ТЕХНИКА 3D МОДЕЛИ<br/>
+		</div>
+<br/>
+<p> <div class="body">
+<br/>
+<br/>
+<img src = "ИС-2 3D модель фото.jpg" alt="Поначалу люди не боялись их"
+		height=180	
+		width=300/><br/>
+<a href="IS-2.html"> 
+	ИС-2 ТЯЖЁЛЫЙ "ТАНК ПРОРЫВА" </a>
+<br/>
+<br/>
+<br/>
+<br/>
+<img src = "КВ-2 3D модель фото.jpg" alt="Поначалу люди не боялись их"
+		height=180	
+		width=300/><br/>
+<a href="KV-2.html"> 
+	"КВ С БОЛЬШОЙ БАШНЕЙ": КВ-2</a>
+<br/>
+<br/>
+<br/>
+<br/>
+<img src = "КВ-1 3D модель фото.jpg" alt="Поначалу люди не боялись их"
+		height=180	
+		width=300/><br/>
+<a href="KV-1.html"> 
+	НЕПРОБИВАЕМЫЙ "КЛИМ ВОРОШИЛОВ": КВ-1</a>
+<br/>
+<br/>
+
+
+<br/>
+<div class="podzagolovok">
+		АКЦИИ И КОНКУРСЫ<br/>
+		</div>
+<br/>
+
+<br/>
+
+<img src = "https://sun9-31.userapi.com/impg/NqbLibvFP10QZ5QayaqufU9gv0KhdN2rQ-hqcA/xHdrBzuEBac.jpg?size=1308x673&quality=96&sign=72c7a3c1bbefb2e99595a335762e1069&c_uniq_tag=MloztqrVvO7J2Ze1IY8kXxVgAaOJf_hkXpBNDUwd7V4&type=album" alt="Поначалу люди не боялись их"
+		height=150	
+		width=300/><br/>
+	УЧАСТВУЙ В ОПРОСЕ И ВЫИГРАЙ ПРИЗЫ! </a>
+<br/>
+<br/>
+
+
+
+
+
+
+
+
+
+<a href="poll.html" class="btn">УЧАСТВОВАТЬ</a>
 	
+		<br/>
+
+		<br/>
+		<br/>
+
+<div class="podzagolovok">
+		ПРОЧЕЕ<br/>
+		</div>
+<br/>
+
+<a href="game.html" ><img src="https://construct-static.com/uploads/91398/3eb4ea3c-8c6c-449a-88ea-f2c638250d59/scr1.jpg" height=150	
+		width=220 ></a>
+
 <br/>
 <br/>
 <br/>
 <br/>
+
 <br/>
 <br/>
 <br/>
 <br/>
+<div class="chto">
+
+<a href="https://t.me/tanks_3D_published_channel" ><img src="https://pic.rutubelist.ru/video/72/eb/72ebe945af2dabe1a9431a9060129c04.jpg" height=90	
+		width=180 ></a>
+</div>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-	<a href="Сайт для получения пароля.html"> 
-	Нажмите, чтобы получить логин и пароль </a>
+
+
+	</div>
+
+	
 </body>
 </html>
